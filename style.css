@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(./board-3700116_1920.jpg);
+    background-size: 100% 740px;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding-top: 5%;
+}
+.input1{
+   background-color: black;
+   margin-top: 40px;
+   border-bottom: 3px solid white;
+   font-size: 20px;
+   border: none;
+}
+p{
+    font-size: 22px;
+    margin-top: 30pxpx;
+}
+.btn{
+    background-color: aqua;
+    width: 250px;
+    height: 44px;
+    font-size: 22px;
+    color: black;
+    border-radius: 22px;
+}
+   
+   
+

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 5px solid black;
+}
+.nav{
+    background: darkcyan;
+   
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    background: sandybrown;
+
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+}

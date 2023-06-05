@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    font-size: 30px;
+    
+}
+.font{
+    font-weight: 500;
+}
+.footer{
+    border: 5px solid black;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+.nav{
+    background-color:black ;
+    margin-left: 0;
+    
+    
+    
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+    font-weight:50px;
+    
+}
+.nav-link:hover{
+    background: red;
+}

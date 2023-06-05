@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <style>
+        *{
+            font-family: Montserrat;
+        }
+
+
+
+
+
+
+
+        .mycard{ 
+            border:2px solid red;
+            width: 25%;
+            border-radius: 10px;
+            /* x offset y offset: blur size color; */
+            box-shadow: 2px 3px 5px 3px ;
+            padding: 20px 10px;
+            box-sizing: border-box;
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/004/755/657/large_2x/minimal-work-space-creative-flat-lay-of-workspace-desk-office-desk-wooden-table-background-with-mock-up-notebooks-and-pencil-and-plant-top-view-with-copy-space-flat-laygraphy-photo.jpg');
+            background-size: cover;
+            margin: 0;
+            
+        }
+        .myinput{
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-bottom: 2px solid black;
+            background-color: gray;
+            
+        }
+        .mybtn{
+            background-color: purple;
+            padding: 10px  10px;
+            color: white;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border-radius: 40px;
+            transition-property: all;
+            transition-duration: 300ms;
+
+        }
+        .brand{
+            font-size: 40px;
+            text-align: center;
+        }
+        .text{
+            text-align: center;
+        }
+        .mybtn:hover{
+            transform: scale(1.1) translatey(5px);
+            box-shadow: 0 -10px 10px  -5px black;
+        }    
+
+
+        
+
+
+    </style>
+
+</head>
+<body>
+    <div class="mycard">
+        <p class="brand">Brand logo</p>
+        <h2 class="text">member login</h2>
+        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto.</p>
+
+
+
+
+
+        
+        <form>
+            <label for="email">E-mail</label>
+            <input class="myinput" type="email">
+             <label for="password">password</label>
+             <input class="myinput" type="password">
+
+
+
+
+
+
+        </form>
+        <button class="mybtn">SUBMIT</button>
+
+    </div>
+
+    
+</body>
+</html>
