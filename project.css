@@ -1,0 +1,70 @@
+.flex{
+    color: navy;
+}
+.logo{
+    font-size: 50px;
+    color: blue;}
+.logo-1{
+    font-size: 20px;
+    color: blue;
+    
+}
+.card-title{
+    color: navy;
+}
+.heading-2{
+    color: navy;
+    
+    
+}
+.digits{
+    color: navy;
+    
+}
+
+.heading-5{
+    color: navy;
+}
+.background-image{
+    background-image: url(https://img.freepik.com/premium-photo/girl-works-laptop-workplace_324489-1044.jpg?w=740);
+}
+.paragraph{
+font-size: 10px;
+position: relative;
+color: navy;
+
+}
+.nav-link:hover{
+    text-decoration: underline;
+
+}
+.My-card{
+    transition: all 0.2s;
+}
+
+.My-card:hover{
+    transform: scale(1.15);
+    
+}
+
+.testimonial-card .card-up {
+    height: 80px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  
+  .aqua-gradient {
+    background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+  }
+  
+  .testimonial-card .avatar {
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+
+
+
